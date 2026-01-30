@@ -21,7 +21,7 @@ ________________________________________
 NFS	支援（qcow2 內部）	底層資料塊去重與壓縮	適合一般應用，管理最方便。
 FC / iSCSI	需配置 LVM-thin 始支援	提供高速 IOPS 與多路徑備援	適合資料庫，快照建議由 PBS 處理。
 
-Youtube https://www.youtube.com/watch?v=joaR1a4QkEI
+Youtube https://youtu.be/Pqw72ElbNf0
 
 建構過程提問By Gemini 分享如下 https://gemini.google.com/share/d62d1512ee54
 
