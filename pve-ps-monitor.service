@@ -1,0 +1,13 @@
+[Unit]
+Description=Proxmox Snapshot Monitor for Dell PowerStore
+After=pve-cluster.service
+
+[Service]
+ExecStart=/usr/local/bin/pve-monitor-snap.sh
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/pve-powerstore-linkage.log
+StandardError=append:/var/log/pve-powerstore-linkage.log
+
+[Install]
+WantedBy=multi-user.target
